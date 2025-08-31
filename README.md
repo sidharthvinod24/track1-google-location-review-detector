@@ -14,16 +14,17 @@ This was built for **TikTok TechJam 2025, Track 1: Filtering the Noise – ML fo
 ---
 
 ## ⚡ Quick Setup (Best with Google Colab)
-1. **Download** this project and upload it to your Google Drive.  
+1. **Download** this project, unzip it  and upload it to your Google Drive.  
 2. Open `track1.ipynb` in Colab.  
 3. Switch to a GPU runtime.  
-4. Run the **import modules** cell.  
+4. Run the **import modules** cell and add your own directory
 5. Scroll to the **Showcase** section → run all cells below.  
 6. A **Gradio app** will launch → upload your CSV and get predictions instantly.  
 
 👉 If you don’t want to train from scratch, download the pre-trained model.  
 👉 To use LLM-based pseudo-labeling, make sure you have a **Groq Cloud API key**.  
 
+Note the source data files will not be included as they are very large in size
 ---
 
 ## 👨‍💻 Contribution
